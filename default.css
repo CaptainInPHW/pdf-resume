@@ -230,6 +230,7 @@ dd {
 }
 .link{
     margin-top: 20px;
+    margin-bottom: 0;
 }
 .link li{
     margin-top: 10px;

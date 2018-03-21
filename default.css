@@ -84,6 +84,12 @@ ul {
     font-size: 14px;
 }
 
+li {
+    display: flex;
+    margin: 3px 0;
+    align-items: center;
+}
+
 .iconfont {
     margin-right: 5px;
 }
@@ -93,14 +99,16 @@ ul {
 }
 
 .works,
-.skills {
+.skills,
+.other {
     margin-top: 30px;
     margin-bottom: 0;
 }
 
 .info-en,
 .works-en,
-.skills-en {
+.skills-en,
+.other-en {
     margin-bottom: 0;
     font-style: italic;
     font-size: 13px;
@@ -135,7 +143,8 @@ ul {
         border-bottom: none;
     }
 }
-.canvas{
+
+.canvas {
     border-bottom: none;
 }
 
@@ -155,12 +164,14 @@ ul {
     background: url("./baby.png") center center no-repeat;
 }
 
-.bg-board{
+.bg-board {
     background: url("./board.png") center center no-repeat;
 }
-.bg-canvas{
+
+.bg-canvas {
     background: url("./canvas.png") center center no-repeat;
 }
+
 .bg {
     padding: 0 15px;
     height: 300px;
@@ -202,4 +213,24 @@ svg {
 
 span {
     font-size: 13px;
+}
+
+dl {
+    margin-top: 20px;
+}
+
+dt {
+    margin: 15px 0 5px;
+    color: #007bff;
+    font-size: 18px;
+}
+
+dd {
+    font-size: 14px;
+}
+.link{
+    margin-top: 20px;
+}
+.link li{
+    margin-top: 10px;
 }

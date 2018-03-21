@@ -1,0 +1,205 @@
+/*
+ * default.css
+ * Copyright (C) 2018 daijt
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+:root {
+    --themeColor: #007bff;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+/* print resume */
+@media print {
+    main {
+        margin: 0 auto;
+    }
+
+    .row {
+        margin: 20px 0;
+        padding-bottom: 20px;
+    }
+
+    .douban {
+        page-break-after: always;
+        border-bottom: none;
+    }
+}
+
+/* mobile */
+@media (max-width: 800px) {
+    main {
+        margin: 0 auto;
+        padding: 30px 10px;
+    }
+
+    .row {
+        overflow: hidden;
+    }
+}
+
+/* PC */
+@media (min-width: 800px) {
+    main {
+        margin: 10px auto;
+        padding: 70px 90px;
+        max-width: 800px;
+    }
+}
+
+main {
+    box-shadow: 0 0 0 0.75pt #d1d1d1, 0 0 3pt 0.75pt #ccc;
+    background: rgba(0, 123, 255, .03);
+}
+
+.container {
+    padding: 0;
+}
+
+.info {
+
+}
+
+.bar {
+    height: 6px;
+    background: var(--themeColor);
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.desc {
+    font-size: 14px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+}
+
+.iconfont {
+    margin-right: 5px;
+}
+
+.info {
+    margin-bottom: 0;
+}
+
+.works,
+.skills {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.info-en,
+.works-en,
+.skills-en {
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 13px;
+}
+
+.works-wrapper {
+    /*margin: 10px;*/
+}
+
+.col-12 {
+    /*padding: 0;*/
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #007bff;
+}
+
+@media print {
+    main {
+        margin: 0 auto;
+    }
+
+    .row {
+        margin: 20px 0;
+        padding-bottom: 20px;
+    }
+
+    .douban {
+        page-break-after: always;
+        border-bottom: none;
+    }
+}
+.canvas{
+    border-bottom: none;
+}
+
+.bg-netease {
+    background: url("./netease-music.png") center center no-repeat;
+}
+
+.bg-vue {
+    background: url("./vue-resume.png") center center no-repeat;
+}
+
+.bg-douban {
+    background: url("./douban.jpg") center center no-repeat;
+}
+
+.bg-baby {
+    background: url("./baby.png") center center no-repeat;
+}
+
+.bg-board{
+    background: url("./board.png") center center no-repeat;
+}
+.bg-canvas{
+    background: url("./canvas.png") center center no-repeat;
+}
+.bg {
+    padding: 0 15px;
+    height: 300px;
+    background-size: contain;
+    background-clip: content-box;
+}
+
+.item-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.item-name,
+.item-intro,
+.item-tech {
+    margin-bottom: 0;
+    font-size: 15px;
+    border-bottom: 1px solid #007bff;
+}
+
+.item-link {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.item-desc {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.item-icon {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+svg {
+    margin-right: 5px;
+}
+
+span {
+    font-size: 13px;
+}

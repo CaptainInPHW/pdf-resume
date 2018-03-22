@@ -100,7 +100,8 @@ li {
 
 .works,
 .skills,
-.other {
+.other,
+.exp {
     margin-top: 30px;
     margin-bottom: 0;
 }
@@ -108,7 +109,8 @@ li {
 .info-en,
 .works-en,
 .skills-en,
-.other-en {
+.other-en,
+.exp-en {
     margin-bottom: 0;
     font-style: italic;
     font-size: 13px;
@@ -228,10 +230,17 @@ dt {
 dd {
     font-size: 14px;
 }
-.link{
+
+.link {
     margin-top: 20px;
     margin-bottom: 0;
 }
-.link li{
+
+.link li {
     margin-top: 10px;
+}
+.exp-text{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 14px;
 }

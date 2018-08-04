@@ -57,7 +57,7 @@ main {
 }
 
 .bar {
-  height: 6px;
+  height: 3px;
   background: #007bff;
 }
 
@@ -90,7 +90,11 @@ li {
   margin-bottom: 0;
 }
 
+.tech,
+.intro,
+.resume,
 .works,
+.projects,
 .skills,
 .other,
 .exp {
@@ -98,8 +102,12 @@ li {
   margin-bottom: 0;
 }
 
+.tech-en,
 .info-en,
+.intro-en,
+.resume-en,
 .works-en,
+.projects-en,
 .skills-en,
 .other-en,
 .exp-en {
@@ -114,24 +122,20 @@ li {
   border-bottom: 1px solid #007bff;
 }
 
-@media print {
-  main {
-    margin: 0 auto;
-  }
-
-  .row {
-    margin: 20px 0;
-    padding-bottom: 20px;
-  }
-
-  .douban {
-    page-break-after: always;
-    border-bottom: none;
-  }
-}
-
 .canvas {
   border-bottom: none;
+}
+
+.bg-cover {
+  height: 400px;
+  background: url("./cover.png") center center no-repeat;
+  background-size: contain;
+}
+
+.bg-main{
+  height: 400px;
+  background: url("./main.png") center center no-repeat;
+  background-size: contain;
 }
 
 .bg-netease {
@@ -229,3 +233,58 @@ dd {
   margin-bottom: 0;
   font-size: 14px;
 }
+
+img {
+  margin-right: 5px;
+}
+
+.projects-item > li {
+  position: relative;
+  padding-left: 15px;
+}
+
+.experience-item {
+  margin-top: 10px;
+}
+
+.experience-item > li:before,
+.intro-item > li:before,
+.ability-item > li:before,
+.projects-item > li::before {
+  position: absolute;
+  top: calc(50% - 50%);
+  left: 0;
+  display: block;
+  content: '➥';
+  width: 10px;
+  height: 10px;
+  color: #007bff;
+}
+
+.projects-item span {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.duty li,
+.intro-item li,
+.ability-item li,
+.experience-item li {
+  position: relative;
+  padding-left: 15px;
+}
+
+
+.duty > li::before {
+  position: absolute;
+  top: calc(50% - 50%);
+  left: 0;
+  display: block;
+  content: '•';
+  width: 10px;
+  height: 10px;
+  color: #007bff;
+}
+ code {
+   color: #007bff;
+ }

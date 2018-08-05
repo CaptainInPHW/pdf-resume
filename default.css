@@ -19,11 +19,6 @@ body {
     margin: 20px 0;
     padding-bottom: 20px;
   }
-
-  .douban {
-    page-break-after: always;
-    border-bottom: none;
-  }
 }
 
 /* mobile */

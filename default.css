@@ -271,3 +271,7 @@ img {
  code {
    color: #007bff;
  }
+
+ .ability-item {
+   margin-top: 10px;
+ }

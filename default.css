@@ -121,18 +121,6 @@ li {
   border-bottom: none;
 }
 
-.bg-cover {
-  height: 400px;
-  background: url("./cover.png") center center no-repeat;
-  background-size: contain;
-}
-
-.bg-main{
-  height: 400px;
-  background: url("./main.png") center center no-repeat;
-  background-size: contain;
-}
-
 .bg-netease {
   background: url("./netease-music.png") center center no-repeat;
 }

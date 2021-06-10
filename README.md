@@ -1,5 +1,3 @@
-### Online PDF resume
+# Resume
 
-[Click here to preview online](https://daijiangtao.name/resume)
-
-![Screen shot](./screenshot.png)
+You can preview [here](https://daijiangtao.name/resume). **Do not fork it**, thank you!

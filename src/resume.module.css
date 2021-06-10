@@ -1,0 +1,27 @@
+@import-normalize;
+
+@font-face {
+  font-family: 'FZSongTi';
+  font-display: fallback;
+  src: url('./assets/JetBrainsMono.ttf');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-display: fallback;
+  src: local('JetBrains Mono'), url('./assets/JetBrainsMono.ttf');
+}
+
+html, body {
+  color: #333;
+  background-color: #f9f9f9;
+  font-family: "JetBrains Mono", sans-serif;
+}
+
+.outerContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

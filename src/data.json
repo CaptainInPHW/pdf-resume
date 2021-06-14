@@ -1,0 +1,54 @@
+{
+  "name": "戴江涛",
+  "details": [
+    "<a href='tel:17349777173'>17349777173</a>",
+    "<a href='mailto:jiangtao.dai@foxmail.com'>jiangtao.dai@foxmail.com</a>"
+  ],
+  "profile": {
+    "title": "个人简介",
+    "description": "喜爱编程，常浏览技术网站关注技术动态。能独自解决工作中遇见的大部分问题。热衷于他人对自己的代码进行&nbsp;review&nbsp;并提出改进建议。坚持学习，过程中做笔记以及编写博客（最近在学习<code>TypeScript</code>以及 Java）。今年目标是在工作项目中使用 TypeScript 以及编写基于 React & TypeScript 的组件库。"
+  },
+  "jobs": [
+    {
+      "company": "上海万物新生环保科技集团有限公司",
+      "duration": "2019.08 ~ 至今",
+      "summary": "负责前端开发工作",
+      "details": [
+        "开发后台管理系统",
+        "开发 ahs-cli"
+      ]
+    },
+    {
+      "company": "上海无熵信息科技有限公司",
+      "duration": "2019.04 ~ 2019.07",
+      "summary": "任职 Web 前端工程师，负责 Saas 管理后台的开发、客户官网首页的制作，同时对客户在使用系统中遇到的问题进行答疑"
+    },
+    {
+      "company": "上海证大喜马拉雅网络科技有限公司",
+      "duration": "2019.08 ~ 至今",
+      "summary": "该系统为主 App 内嵌网页，为主播修改个人信息、进行专辑报价、音贴报价等提供了便利。在开发过程中遇见了一些移动端特有的 bug，比如 iOS 平台上时间分隔符与 Android 平台不同，经过该项目了解了 React 框架的基本使用，以及获得了一些移动端开发的经验。该系统集成了部门多个业务，为销售、运营人员进行广告的投放以及相关资料的审核提供了便利。熟悉使用 React 进行日常开发，复杂的页面组件化，易于扩展。",
+      "details": [
+        "使用 React 技术，配合 ant-design-mobile UI 库以及自行编写的基础组件进行开发。",
+        "在第三方 UI 库所提供的组件未能满足业务的需求下，自行开发了相关的组件。 如 tag 以及 tag-group 等。",
+        "进行新功能的开发以及旧功能的重构。",
+        "使用 ant-design UI 库进行开发，以及 css in js 方案之一 style-component 编写通用布局组件。"
+      ]
+    },
+    {
+      "company": "上海试衣间信息科技有限公司",
+      "duration": "2018.04 ~ 2018.07"
+    },
+    {
+      "company": "中国移动通信集团天水分公司",
+      "duration": "2018.04 ~ 2018.07"
+    }
+  ],
+  "education": {
+    "link": "http://www.xaut.edu.cn/",
+    "title": "教育经历",
+    "university": "西安理工大学",
+    "duration": "2012 ~ 2016",
+    "major": "电子信息工程",
+    "degree": "本科"
+  }
+}
